@@ -1,5 +1,5 @@
 {
-  "name": "npm-basic",
+  "name": "seanchen-npm-basic",
   "version": "1.0.0",
   "description": "Try the basic concepts about NPM moduels",
   "main": "index.js",
