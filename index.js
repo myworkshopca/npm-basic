@@ -13,6 +13,14 @@ const basicSingleton = {
         } else {
             console.log('No greeting message yet!');
         }
+    },
+
+    /**
+     * set message.
+     */
+    setMsg: function(message) {
+
+        data.greeting_message = message;
     }
 };
 
