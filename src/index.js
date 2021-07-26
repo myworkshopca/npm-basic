@@ -1,1 +1,1 @@
-export * from './singleton.js';
+module.exports = require('./singleton.js');
