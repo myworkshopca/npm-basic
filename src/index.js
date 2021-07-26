@@ -4,4 +4,8 @@
  */
 //module.exports = require('./singleton.js');
 
+// export the singleton.
 module.exports.basicSingleton = require('./singleton.js');
+
+// export the normal class.
+module.exports.normalClass = require('./normalClass.js');
