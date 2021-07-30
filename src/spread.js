@@ -13,6 +13,18 @@
 
 const spreadCases = {
 
+    basicUsage: function() {
+        
+        console.log('Basic usage!');
+
+        // copy array (iterable)
+        let array = [1, 2, 3];
+        let array1 = [...array]
+        
+        console.log(array1);
+        console.log(array == array1)
+        console.log(array === array1)
+    }
 };
 
 module.exports = spreadCases;
