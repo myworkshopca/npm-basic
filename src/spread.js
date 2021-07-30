@@ -22,8 +22,22 @@ const spreadCases = {
         let array1 = [...array]
         
         console.log(array1);
-        console.log(array == array1)
-        console.log(array === array1)
+        console.log(array == array1);
+        console.log(array === array1);
+        
+        // try to clone (copy) an Object
+        let obj = {
+            a: [1,2,3],
+            b: 'hello',
+            c: {
+                aa: 'abcd',
+                bb: 23
+            }
+        };
+        let obj1 = {...obj};
+        console.log(obj1);
+        console.log(obj == obj1);
+        console.log(obj === obj1);
     }
 };
 
